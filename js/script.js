@@ -71,6 +71,14 @@ const displayPhoneDetail = myPhone => {
       <p class="card-text">Chipset: ${myPhone.mainFeatures.chipSet}</p>
       <p class="card-text">DisplaySize: ${myPhone.mainFeatures.displaySize}</p>
       <p class="card-text">Memory: ${myPhone.mainFeatures.memory}</p>
+      <p class="card-text">Sensors:<br><br> ${myPhone.mainFeatures.sensors[0]}</p>
+      <p class="card-text">${myPhone.mainFeatures.sensors[1]}</p>
+      <p class="card-text">${myPhone.mainFeatures.sensors[2]}</p>
+      <p class="card-text">${myPhone.mainFeatures.sensors[3]}</p>
+      <p class="card-text">${myPhone.mainFeatures.sensors[4]}</p>
+      <p class="card-text">${myPhone.mainFeatures.sensors[5]}</p>
+      <h6 class="card-title">${myPhone.releaseDate}</h6>
+
     </div>
   </div>         
   `
