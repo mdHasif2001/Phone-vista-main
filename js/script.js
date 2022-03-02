@@ -16,12 +16,6 @@ const searchButton = () => {
         input.value = "";
         main.innerHTML = "";
     }
-    if(inputValue == false){
-        error.innerText = "Please give a valid name";
-        input.value = "";
-        main.innerHTML = "";
-
-    }
     else {
         main.innerHTML = "";
         const url = ` https://openapi.programming-hero.com/api/phones?search=${inputValue}`;
